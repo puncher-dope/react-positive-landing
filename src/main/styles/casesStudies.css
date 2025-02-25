@@ -1,0 +1,32 @@
+.caseStudies{
+    color: #fff;
+    background-color: #191A23;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    width: 95%;
+    padding: 50px 20px;
+}
+.caseStudies .studies1, .studies2, .studies3{
+    width: 286px;
+    height: 150;
+    text-align: left;
+}
+.caseStudies .studies1, .studies2{
+    padding-right: 50px;
+    border-right: 1px solid #fff;
+}
+.studiosLink{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.studies1 a, .studies2 a{
+    text-decoration: none;
+    color: #B9FF66;
+}
+.studies3 a{
+    text-decoration: none;
+    color: #B9FF66;
+}

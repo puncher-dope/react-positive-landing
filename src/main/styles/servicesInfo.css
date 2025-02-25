@@ -1,0 +1,17 @@
+.servesis{
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.servesis h2{
+    padding: 5px 10px;
+    font-size: 40px;
+    background: #B9FF66;
+    border-radius: 5px;
+}
+.servesis p{
+    margin-left: 40px;
+    width: 50%;
+}

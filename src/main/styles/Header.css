@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width: 65%;   
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}  
+.header-info a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.header-info a:hover{
+    opacity: 0.3;
+}
+.specialButton{
+    width: 231px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 1s;
+}
+.header-info .specialButton:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
