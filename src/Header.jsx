@@ -1,13 +1,11 @@
-// import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
+
 import Logo from "/Logo.svg";
-import "./App.css";
+import "./styles/Header.css";
 
 function Header() {
   return (
     <>
-      <header class="container">
+      <div class="container">
         <a href="">
           <img src={Logo} alt="logo" />
         </a>
@@ -23,7 +21,7 @@ function Header() {
             </div>
           </div>
         </nav>
-      </header>
+      </div>
     </>
   );
 }
