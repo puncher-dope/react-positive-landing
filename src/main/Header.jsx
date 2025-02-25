@@ -1,5 +1,4 @@
 
-import Logo from "/Logo.svg";
 import "./styles/index.css"
 import "./styles/Header.css";
 
@@ -8,7 +7,7 @@ function Header() {
     <>
       <header className="container">
         <a href="">
-          <img src={Logo} alt="logo" />
+          <img src='/Logo.svg' alt="logo" />
         </a>
         <nav>
           <div className="header-info">

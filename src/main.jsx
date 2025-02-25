@@ -10,20 +10,18 @@ import TitleCaseStudies from "./main/titleCaseStudies.jsx";
 import CasesStudies from "./main/casesStudies.jsx";
 import TitleOurWorking from "./main/titleOurWorking.jsx";
 import Modal from "./main/modal.jsx";
-
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Header />
     <PretitleWthRupor />
     <LinksPlatforms />
-    <ServicesInfo/>
-    <ServicesCards/>
-    <GetProposal/>
-    <TitleCaseStudies/>
-    <CasesStudies/>
-    <TitleOurWorking/>
-    <Modal/>
-
+    <ServicesInfo />
+    <ServicesCards />
+    <GetProposal />
+    <TitleCaseStudies />
+    <CasesStudies />
+    <TitleOurWorking />
+    <Modal />
 
   </StrictMode>
 );

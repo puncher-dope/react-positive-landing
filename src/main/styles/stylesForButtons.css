@@ -1,0 +1,8 @@
+.part1 button{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
