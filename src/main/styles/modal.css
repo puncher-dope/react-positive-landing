@@ -1,39 +1,39 @@
-.containerManual{
-    display: flex;
-    flex-direction: column;
+.containerManual {
+  display: flex;
+  flex-direction: column;
 }
-.fullCard1{
-    border: 1px solid black;
-    padding: 30px 50px 30px 50px;
-    background: #B9FF66;
-    border-radius: 45px;
-    border-bottom: 5px solid black;
+.fullCard1 {
+  border: 1px solid black;
+  border-bottom: 5px solid black;
+  padding: 30px 50px 30px 50px;
+  background: #b9ff66;
+  border-radius: 45px;
+  margin-bottom: 20px;
 }
-.part1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    
+.part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
-.prepart{
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    width: 25%;
+.prepart {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  width: 40%%;
 }
-.prepart h2{
-    font-size: 60px;
+.prepart h2 {
+  font-size: 60px;
 }
-.prepart p{
-    font-size: 30px;
-    font-weight: 500;
+.prepart p {
+  font-size: 30px;
+  font-weight: 500;
 }
-.podText1{
-    border-top: 1px solid black;
-    display: block;
+.podText1 {
+  border-top: 1px solid black;
+  display: block;
 }
