@@ -10,6 +10,8 @@ import TitleCaseStudies from "./main/titleCaseStudies.jsx";
 import CasesStudies from "./main/casesStudies.jsx";
 import TitleOurWorking from "./main/titleOurWorking.jsx";
 import Modal from "./main/modal.jsx";
+import TeamTitle from "./main/TeamTitle.jsx";
+import OurTeam from "./main/OurTeam.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Header />
@@ -22,5 +24,7 @@ createRoot(document.getElementById("root")).render(
     <CasesStudies />
     <TitleOurWorking />
     <Modal />
+    <TeamTitle />
+    <OurTeam />
   </StrictMode>
 );

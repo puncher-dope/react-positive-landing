@@ -12,16 +12,16 @@ export default function Modal() {
   const [five, setFive] = useState(false);
   const [six, setSix] = useState(false);
 
-  const changeBg = () => {
-    setFirst(!first);
-  };
+  // const changeBg = () => {
+  //   setSecond(!first);
+  // };
   const newBackground = first ? "" : "part2";
   const hidden = first ? "" : "hidden";
   const btn = first ? "-" : "+";
 
-  const changeBg1 = () => {
-    setSecond(!second);
-  };
+  // const changeBg1 = () => {
+  //   setSecond(!second);
+  // };
   const newBackground1 = second ? "" : "part2";
   const hidden1 = second ? "" : "hidden";
   const btn1 = second ? "-" : "+";
@@ -63,7 +63,7 @@ export default function Modal() {
               <h2>01</h2>
               <p>Consultation</p>
             </div>
-            <button onClick={changeBg}>{btn}</button>
+            <button onClick={() => {setFirst(!first)}}>{btn}</button>
           </div>
           <div className={`podText1 ${hidden}`}>
             <p>
@@ -81,7 +81,9 @@ export default function Modal() {
               <h2>02</h2>
               <p>Research and Strategy Development</p>
             </div>
-            <button onClick={changeBg1}>{btn1}</button>
+            <button onClick={() => {setSecond(!second
+              
+            )}}>{btn1}</button>
           </div>
           <div className={`podText1 ${hidden1}`}>
             <p>
