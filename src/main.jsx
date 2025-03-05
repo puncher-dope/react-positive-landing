@@ -12,8 +12,10 @@ import TitleOurWorking from "./main/titleOurWorking.jsx";
 import Modal from "./main/modal.jsx";
 import TeamTitle from "./main/TeamTitle.jsx";
 import OurTeam from "./main/OurTeam.jsx";
+import Testimonials from "./main/Testiamonials.jsx";
+import ContainerMessage from "./main/Comments/ContainerMessage.jsx";
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
+  <>
     <Header />
     <PretitleWthRupor />
     <LinksPlatforms />
@@ -26,5 +28,9 @@ createRoot(document.getElementById("root")).render(
     <Modal />
     <TeamTitle />
     <OurTeam />
-  </StrictMode>
+    <Testimonials />
+    <ContainerMessage />
+  </>
+
+
 );

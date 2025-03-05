@@ -34,3 +34,6 @@ nav{
 .header-info .specialButton:hover{
     background: rgba(0, 0, 0, 0.4);
 }
+.servesis  .oWP-testimonials{
+    width: 38%;
+}
