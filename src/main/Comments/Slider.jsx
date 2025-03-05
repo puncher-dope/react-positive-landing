@@ -4,20 +4,32 @@ import "../styles/Comments.css"
 import 'swiper/css'
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { EffectCoverflow } from 'swiper/modules';
 
 import ComponentMessage from "./ComponentMessage"
 export default function Slider() {
   return (
     <Swiper
       modules={[Navigation, Pagination]}
+      centeredSlides={true}
+      effect={'coverflow'}
       spaceBetween={300}
       slidesPerView={2}
+      EffectCoverflow={{
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+      }}
+      loop={true}
       navigation={{
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-        clickable: true
       }}
-      pagination={{ clickable: false }}
+      pagination={{
+        // el: '.swiper-pagination',
+        clickable: false,
+      }}
     >
       <SwiperSlide><ComponentMessage /></SwiperSlide>
       <SwiperSlide><ComponentMessage /></SwiperSlide>
@@ -30,10 +42,10 @@ export default function Slider() {
         <div className='swiper-button-prev slider-arrow'>
           &#8592;
         </div>
+        {/* <div className='swiper-pagination' /> */}
         <div className='swiper-button-next slider-arrow'>
           &#8594;
         </div>
-
       </div>
     </Swiper>
   )
