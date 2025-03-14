@@ -1,9 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap");
-body{
+
+body {
+    width: 90%;
     margin: 40px 70px 60px 70px;
     font-family: "Space Grotesk", serif;
     font-size: 18px;
 }
-body h1,h2,h3{
+
+body h1,
+h2,
+h3 {
     font-weight: 500;
+}
+
+
+@media(max-width:1200px) {
+    body {
+        margin: 20px 50px 20px 50px;
+        font-family: "Space Grotesk", serif;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:470px) {
+    body {
+        margin: 10px 15px 20px 15px;
+        font-family: "Space Grotesk", serif;
+        font-size: 18px;
+    }
+
+    body h1,
+    h2,
+    h3 {
+        font-size: 36px !important;
+        font-weight: 800;
+    }
+
+    body p {
+        font-size: 16px !important;
+    }
+}
+
+@media(max-width:400px) {
+    body {
+        width: 100%;
+        margin: 20px 10px 5px 10px;
+        font-family: "Space Grotesk", serif;
+        font-size: 18px;
+    }
+
+    body p {
+        font-size: 14px !important;
+    }
 }

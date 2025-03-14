@@ -1,0 +1,109 @@
+body {
+  margin-bottom: 0;
+}
+
+.footer-container {
+  margin-top: 50px;
+  background-color: #191A23;
+  color: #fff;
+  margin-bottom: 0;
+  border-radius: 50px 50px 0 0;
+}
+
+.postContainer {
+  padding: 60px;
+}
+
+/* HEADER */
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer-header-info {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-header-info a {
+  color: #fff;
+}
+
+.footer-header-info a:hover {
+  transition: 0.6s ease;
+  color: #B9FF66;
+}
+
+.footer-header-contacts {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* MAIN */
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-main-info {
+  width: 60%;
+}
+
+.footer-main-title {
+  background-color: #B9FF66;
+  color: black;
+  width: 30%;
+  padding: 0 2px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.footer-main-title h2 {
+  margin-top: 0;
+}
+
+.footer-main-paragraph {
+  width: 70%;
+}
+
+.footer-main-form {
+  height: 180px;
+  background-color: #292A32;
+  border-radius: 15px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 0 40px 0 40px;
+}
+
+.footer-main-form input {
+  width: 55%;
+  margin-bottom: 0;
+}
+
+.footer-main-form input::placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.footer-main-form input:focus {
+  outline: none;
+}
+
+.btn-form {
+  border-style: none;
+  width: 55%;
+  height: 60px;
+  font-size: 16px;
+  background-color: #B9FF66;
+}
+
+.footer-footer {
+  margin-top: 50px;
+}
