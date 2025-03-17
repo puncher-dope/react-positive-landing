@@ -1,6 +1,7 @@
 {
   "name": "vite-positive-landing",
-  "private": false,
+  "private": true,
+  "homepage": "https://puncher-dope.github.io/react-positive-landing",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.3.0",
