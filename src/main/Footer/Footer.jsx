@@ -11,11 +11,11 @@ export default function Footer() {
             <img src="./LogoFooter.svg" alt="" />
           </a>
           <div className="footer-header-info">
-            <a href="">About us</a>
-            <a href="">Services</a>
-            <a href="">Use Cases</a>
-            <a href="">Pricing</a>
-            <a href="">Blog</a>
+            <a href="/AboutUs">About us</a>
+            <a href="/ServicesPage">Services</a>
+            <a href="/UseCasesPage">Use Cases</a>
+            <a href="/PricingPage">Pricing</a>
+            <a href="/BlogPage">Blog</a>
           </div>
           <div className="footer-header-contacts">
             <a href=""><img src="./ImgForHome//in.png" alt="" /></a>

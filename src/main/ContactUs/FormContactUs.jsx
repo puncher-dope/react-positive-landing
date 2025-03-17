@@ -13,7 +13,6 @@ export default function FormContactUs() {
           {tab === 'SayHi' && <SayHi />}
           {tab === 'GetAQuote' && <GetAQuote />}
         </div>
-
         <img id='contact' src="./ImgForHome/ContactUs.svg" />
       </div>
     </>

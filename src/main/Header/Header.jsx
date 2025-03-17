@@ -2,9 +2,9 @@
 import { useState } from "react";
 import "../styles/index.css"
 import "./Header.css";
-import MainPage from "../../MainPage";
-import AboutUs from "../../AboutUs";
-import { Route, Routes, Link, BrowserRouter } from "react-router-dom";
+// import MainPage from "../../MainPage";
+// import AboutUs from "../../AboutUs";
+// import { Route, Routes, Link, BrowserRouter } from "react-router-dom";
 
 function Header() {
   const [open, setOpen] = useState(true)
@@ -21,11 +21,11 @@ function Header() {
           <div className="header-info">
             <ul>
               <li><a href="/AboutUs">About us</a></li>
-              <li><a href="#" >Services</a></li>
-              <li><a href="#" >Use Cases</a></li>
-              <li><a href="#" >Pricing</a></li>
-              <li><a href="#" >Blog</a></li>
-              <li ><a href="#" className="specialButton">Request a quote</a></li>
+              <li><a href="/ServicesPage" >Services</a></li>
+              <li><a href="/UseCasesPage" >Use Cases</a></li>
+              <li><a href="/PricingPage" >Pricing</a></li>
+              <li><a href="/BlogPage" >Blog</a></li>
+              <li ><a href="/RequestAQuote" className="specialButton">Request a quote</a></li>
             </ul>
 
           </div>
